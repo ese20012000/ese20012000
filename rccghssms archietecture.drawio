@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T10:22:03.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HY_zpl3dulwg8zVlYDtA" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T10:27:32.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uXsMBMivZX3H8BSr9O2g" version="22.1.16" type="github">
   <diagram name="Page-1" id="BjehHrfEAL9PFBmuCVnp">
     <mxGraphModel dx="1354" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,9 +10,6 @@
         <mxCell id="e8o-Y00-ex-6M-R0XkLN-1" value="Lambda&amp;nbsp;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="710" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="e8o-Y00-ex-6M-R0XkLN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e8o-Y00-ex-6M-R0XkLN-2" target="e8o-Y00-ex-6M-R0XkLN-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e8o-Y00-ex-6M-R0XkLN-2" value="AWS Cognito" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="736.5" width="76.5" height="93" as="geometry" />
         </mxCell>
@@ -20,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e8o-Y00-ex-6M-R0XkLN-3" value="S3 Static webpage" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="560" width="76.5" height="93" as="geometry" />
+          <mxGeometry x="330" y="520" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="e8o-Y00-ex-6M-R0XkLN-4" value="API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="710" width="76.5" height="93" as="geometry" />
@@ -42,6 +39,18 @@
         </mxCell>
         <mxCell id="e8o-Y00-ex-6M-R0XkLN-16" value="AWS SNS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="740" y="718.25" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e8o-Y00-ex-6M-R0XkLN-18" value="Cloud Front" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="e8o-Y00-ex-6M-R0XkLN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e8o-Y00-ex-6M-R0XkLN-2" target="e8o-Y00-ex-6M-R0XkLN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8o-Y00-ex-6M-R0XkLN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e8o-Y00-ex-6M-R0XkLN-18" target="e8o-Y00-ex-6M-R0XkLN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8o-Y00-ex-6M-R0XkLN-22" value="User Authenticates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="870" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
